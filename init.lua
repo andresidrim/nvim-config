@@ -12,7 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	require("plugins.neotree"),
 	require("plugins.colorTheme"),
 	require("plugins.lualine"),
 	require("plugins.treesitter"),
@@ -21,7 +20,6 @@ require("lazy").setup({
 	require("plugins.autocompletion"),
 	require("plugins.conform"),
 	require("plugins.gitsigns"),
-	require("plugins.alpha"),
 	require("plugins.autotag"),
 	require("plugins.misc"),
 	require("plugins.comment"),
